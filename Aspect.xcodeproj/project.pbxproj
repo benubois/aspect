@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B50E003B1ADDC5BE00CA09EC /* Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B50E003A1ADDC5BE00CA09EC /* Cell.xib */; };
+		B50E003D1ADDC68300CA09EC /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50E003C1ADDC68300CA09EC /* Cell.swift */; };
 		B5D668E01ADDBD5900ADC3D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D668DF1ADDBD5900ADC3D6 /* AppDelegate.swift */; };
-		B5D668E21ADDBD5900ADC3D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D668E11ADDBD5900ADC3D6 /* ViewController.swift */; };
-		B5D668E51ADDBD5900ADC3D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5D668E31ADDBD5900ADC3D6 /* Main.storyboard */; };
 		B5D668E71ADDBD5900ADC3D6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5D668E61ADDBD5900ADC3D6 /* Images.xcassets */; };
 		B5D668EA1ADDBD5900ADC3D6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5D668E81ADDBD5900ADC3D6 /* LaunchScreen.xib */; };
 		B5D668F61ADDBD5900ADC3D6 /* AspectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D668F51ADDBD5900ADC3D6 /* AspectTests.swift */; };
+		B5D669001ADDC0F300ADC3D6 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D668FF1ADDC0F300ADC3D6 /* CalculatorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +27,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B50E003A1ADDC5BE00CA09EC /* Cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Cell.xib; sourceTree = "<group>"; };
+		B50E003C1ADDC68300CA09EC /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 		B5D668DA1ADDBD5900ADC3D6 /* Aspect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aspect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5D668DE1ADDBD5900ADC3D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5D668DF1ADDBD5900ADC3D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B5D668E11ADDBD5900ADC3D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B5D668E41ADDBD5900ADC3D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B5D668E61ADDBD5900ADC3D6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B5D668E91ADDBD5900ADC3D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B5D668EF1ADDBD5900ADC3D6 /* AspectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AspectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5D668F41ADDBD5900ADC3D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5D668F51ADDBD5900ADC3D6 /* AspectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AspectTests.swift; sourceTree = "<group>"; };
+		B5D668FF1ADDC0F300ADC3D6 /* CalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,10 +80,11 @@
 			isa = PBXGroup;
 			children = (
 				B5D668DF1ADDBD5900ADC3D6 /* AppDelegate.swift */,
-				B5D668E11ADDBD5900ADC3D6 /* ViewController.swift */,
-				B5D668E31ADDBD5900ADC3D6 /* Main.storyboard */,
-				B5D668E61ADDBD5900ADC3D6 /* Images.xcassets */,
+				B5D668FF1ADDC0F300ADC3D6 /* CalculatorViewController.swift */,
+				B50E003C1ADDC68300CA09EC /* Cell.swift */,
+				B50E003A1ADDC5BE00CA09EC /* Cell.xib */,
 				B5D668E81ADDBD5900ADC3D6 /* LaunchScreen.xib */,
+				B5D668E61ADDBD5900ADC3D6 /* Images.xcassets */,
 				B5D668DD1ADDBD5900ADC3D6 /* Supporting Files */,
 			);
 			path = Aspect;
@@ -192,8 +195,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5D668E51ADDBD5900ADC3D6 /* Main.storyboard in Resources */,
 				B5D668EA1ADDBD5900ADC3D6 /* LaunchScreen.xib in Resources */,
+				B50E003B1ADDC5BE00CA09EC /* Cell.xib in Resources */,
 				B5D668E71ADDBD5900ADC3D6 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,8 +215,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5D668E21ADDBD5900ADC3D6 /* ViewController.swift in Sources */,
+				B5D669001ADDC0F300ADC3D6 /* CalculatorViewController.swift in Sources */,
 				B5D668E01ADDBD5900ADC3D6 /* AppDelegate.swift in Sources */,
+				B50E003D1ADDC68300CA09EC /* Cell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,14 +240,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B5D668E31ADDBD5900ADC3D6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B5D668E41ADDBD5900ADC3D6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B5D668E81ADDBD5900ADC3D6 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -411,6 +407,7 @@
 				B5D668FB1ADDBD5900ADC3D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5D668FC1ADDBD5900ADC3D6 /* Build configuration list for PBXNativeTarget "AspectTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +416,7 @@
 				B5D668FE1ADDBD5900ADC3D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,11 +1,3 @@
-//
-//  AspectTests.swift
-//  AspectTests
-//
-//  Created by ben on 4/14/15.
-//  Copyright (c) 2015 Ben Ubois. All rights reserved.
-//
-
 import UIKit
 import XCTest
 
