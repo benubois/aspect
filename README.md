@@ -3,4 +3,4 @@ Aspect
 
 Proportional resizing calculator for iOS.
 
-![Screenshot](http://f.cl.ly/items/2C1R0w0M3x3t2z0x283r/aspect.png)
+![Screenshot](http://cl.ly/image/0w020W1e3u0l/aspect_example.gif)
