@@ -97,18 +97,18 @@ class CalculatorViewController: UITableViewController {
     }
     
     func calculate(textField:UITextField) {
-        if let currentWidth = self.widthOriginalCell?.textField.text.toInt(), currentHeight = self.heightOriginalCell?.textField.text.toInt() {
+        if let currentWidthString = self.widthOriginalCell?.textField.text, currentWidth = Int(currentWidthString), currentHeightString = self.heightOriginalCell?.textField.text, currentHeight = Int(currentHeightString) {
             let widthProportion = Float(currentWidth) / Float(currentHeight)
             let heightProportion = Float(currentHeight) / Float(currentWidth)
 
             if (textField == self.heightResizedCell?.textField){
-                if let newHeight = self.heightResizedCell?.textField.text.toInt() {
+                if let newHeightString = self.heightResizedCell?.textField.text, newHeight = Int(newHeightString) {
                     let newWidth = Float(newHeight) * widthProportion
                     let displayValue = String(Int(round(newWidth)))
                     self.widthResizedCell?.textField.text = displayValue
                 }
             } else {
-                if let newWidth = self.widthResizedCell?.textField.text.toInt() {
+                if let newWidthString = self.widthResizedCell?.textField.text, newWidth = Int(newWidthString) {
                     let newHeight = Float(newWidth) * heightProportion
                     let displayValue = String(Int(round(newHeight)))
                     self.heightResizedCell?.textField.text = displayValue
