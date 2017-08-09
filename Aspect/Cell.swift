@@ -7,7 +7,7 @@ class Cell: UITableViewCell {
         
     override func awakeFromNib() {
         super.awakeFromNib()
-        self.textField.keyboardType = UIKeyboardType.NumberPad
+        self.textField.keyboardType = UIKeyboardType.numberPad
     }
 
 }
